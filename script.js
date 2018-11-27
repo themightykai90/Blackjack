@@ -1,6 +1,7 @@
 //
 // Blackjack
-// by Luke McCartney
+// By Luke McCartney
+// Created as part of a JS Course on Pluralsight
 //
 // Card Var
 let suits = ['Hearts', 'Clubs', 'Diamonds', 'Spades'],
@@ -196,7 +197,7 @@ function showStatus() {
     if (playerWon) {
       textArea.innerText += "You Win!";
     } else {
-      textArea.innerText += "Dealer Wins!"
+      textArea.innerText += "House Wins!"
     }
     newGameButton.style.display = 'inline';
     hitButton.style.display = 'none';
